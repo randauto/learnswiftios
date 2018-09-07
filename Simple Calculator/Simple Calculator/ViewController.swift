@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         if let firstNumber = Int(etNumberA.text!) {
             if let secondNumber = Int(etNumberB.text!) {
                 let result = firstNumber * secondNumber
-                lblResult.text = String(result)
+                lblResult.text = "Result is: \(String(result))"
             }
         }
     }
