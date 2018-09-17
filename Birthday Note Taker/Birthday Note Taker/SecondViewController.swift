@@ -33,6 +33,9 @@ class SecondViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    @IBAction func gotoThreeScreen(_ sender: Any) {
+        performSegue(withIdentifier: "gotoThree", sender: nil)
+    }
     
     
 }

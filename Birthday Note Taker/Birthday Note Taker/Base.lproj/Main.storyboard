@@ -153,6 +153,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go to Three"/>
                                 <connections>
+                                    <action selector="gotoThreeScreen:" destination="rgg-58-TVE" eventType="touchUpInside" id="j3p-tm-16z"/>
                                     <segue destination="s5k-PG-b4e" kind="show" identifier="gotoThree" id="zGA-G7-zzw"/>
                                 </connections>
                             </button>
@@ -169,20 +170,32 @@
             </objects>
             <point key="canvasLocation" x="1093.5999999999999" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Three View Controller-->
         <scene sceneID="vNC-mU-uql">
             <objects>
-                <viewController id="s5k-PG-b4e" sceneMemberID="viewController">
+                <viewController id="s5k-PG-b4e" customClass="ThreeViewController" customModule="Birthday_Note_Taker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n5l-mF-zMC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aK-q5-KhH">
+                                <rect key="frame" x="111" y="67" width="152" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PP0-Cv-Shl"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTimer" destination="6aK-q5-KhH" id="FFF-aK-5A4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZf-1x-21a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1786" y="134"/>
+            <point key="canvasLocation" x="1784.8" y="133.5832083958021"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
