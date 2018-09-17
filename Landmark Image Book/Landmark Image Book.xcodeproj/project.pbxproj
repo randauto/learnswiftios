@@ -12,6 +12,14 @@
 		87927B08214FF0660078CF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87927B06214FF0660078CF81 /* Main.storyboard */; };
 		87927B0A214FF0670078CF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87927B09214FF0670078CF81 /* Assets.xcassets */; };
 		87927B0D214FF0670078CF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87927B0B214FF0670078CF81 /* LaunchScreen.storyboard */; };
+		87927B1C214FF22D0078CF81 /* landmark4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B15214FF22C0078CF81 /* landmark4.jpeg */; };
+		87927B1D214FF22D0078CF81 /* landmark6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B16214FF22C0078CF81 /* landmark6.jpg */; };
+		87927B1E214FF22D0078CF81 /* landmark2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B17214FF22C0078CF81 /* landmark2.jpg */; };
+		87927B1F214FF22D0078CF81 /* landmark5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B18214FF22D0078CF81 /* landmark5.jpeg */; };
+		87927B20214FF22D0078CF81 /* landmark1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B19214FF22D0078CF81 /* landmark1.jpg */; };
+		87927B21214FF22D0078CF81 /* landmark7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B1A214FF22D0078CF81 /* landmark7.jpeg */; };
+		87927B22214FF22D0078CF81 /* landmark3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87927B1B214FF22D0078CF81 /* landmark3.jpeg */; };
+		87927B24215008730078CF81 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87927B23215008720078CF81 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		87927B09214FF0670078CF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87927B0C214FF0670078CF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87927B0E214FF0670078CF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87927B15214FF22C0078CF81 /* landmark4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark4.jpeg; sourceTree = "<group>"; };
+		87927B16214FF22C0078CF81 /* landmark6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark6.jpg; sourceTree = "<group>"; };
+		87927B17214FF22C0078CF81 /* landmark2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark2.jpg; sourceTree = "<group>"; };
+		87927B18214FF22D0078CF81 /* landmark5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark5.jpeg; sourceTree = "<group>"; };
+		87927B19214FF22D0078CF81 /* landmark1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark1.jpg; sourceTree = "<group>"; };
+		87927B1A214FF22D0078CF81 /* landmark7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark7.jpeg; sourceTree = "<group>"; };
+		87927B1B214FF22D0078CF81 /* landmark3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landmark3.jpeg; sourceTree = "<group>"; };
+		87927B23215008720078CF81 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +70,9 @@
 		87927B01214FF0660078CF81 /* Landmark Image Book */ = {
 			isa = PBXGroup;
 			children = (
+				87927B14214FF20E0078CF81 /* res */,
 				87927B02214FF0660078CF81 /* AppDelegate.swift */,
+				87927B23215008720078CF81 /* ImageViewController.swift */,
 				87927B04214FF0660078CF81 /* ViewController.swift */,
 				87927B06214FF0660078CF81 /* Main.storyboard */,
 				87927B09214FF0670078CF81 /* Assets.xcassets */,
@@ -62,6 +80,20 @@
 				87927B0E214FF0670078CF81 /* Info.plist */,
 			);
 			path = "Landmark Image Book";
+			sourceTree = "<group>";
+		};
+		87927B14214FF20E0078CF81 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				87927B19214FF22D0078CF81 /* landmark1.jpg */,
+				87927B17214FF22C0078CF81 /* landmark2.jpg */,
+				87927B1B214FF22D0078CF81 /* landmark3.jpeg */,
+				87927B15214FF22C0078CF81 /* landmark4.jpeg */,
+				87927B18214FF22D0078CF81 /* landmark5.jpeg */,
+				87927B16214FF22C0078CF81 /* landmark6.jpg */,
+				87927B1A214FF22D0078CF81 /* landmark7.jpeg */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87927B1C214FF22D0078CF81 /* landmark4.jpeg in Resources */,
 				87927B0D214FF0670078CF81 /* LaunchScreen.storyboard in Resources */,
 				87927B0A214FF0670078CF81 /* Assets.xcassets in Resources */,
+				87927B22214FF22D0078CF81 /* landmark3.jpeg in Resources */,
 				87927B08214FF0660078CF81 /* Main.storyboard in Resources */,
+				87927B1E214FF22D0078CF81 /* landmark2.jpg in Resources */,
+				87927B1F214FF22D0078CF81 /* landmark5.jpeg in Resources */,
+				87927B1D214FF22D0078CF81 /* landmark6.jpg in Resources */,
+				87927B21214FF22D0078CF81 /* landmark7.jpeg in Resources */,
+				87927B20214FF22D0078CF81 /* landmark1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87927B05214FF0660078CF81 /* ViewController.swift in Sources */,
+				87927B24215008730078CF81 /* ImageViewController.swift in Sources */,
 				87927B03214FF0660078CF81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
